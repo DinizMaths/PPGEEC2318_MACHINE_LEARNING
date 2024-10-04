@@ -58,3 +58,37 @@ Now, we convert our emails into a table with features and target:
 
 The prediction of the model can be a probability to be spam or not spam. So we can write a rule to classify the email as spam if the probability is greater than 0.5.
 
+# 📖 Supervised Machine Learning
+
+In supervised machine learning, we "teach" the model using a dataset with features and target. The model learns the relationship between the features and the target. 
+
+In our case, we show a car and its price to the model. The model learns the relationship between the car's features and its price. So the model learns the patterns and can predict the price of a new car.
+
+The matrix of features is called **X** and the target is called **y**. When we train a model, we want to find a function that maps the features to the target:
+
+$g(X) \approx y$
+
+The function $g$ is the model. We can user this logic to:
+
+- Regression: predict a continuous value (price of a car)
+- Binary classification: predict one of two classes (spam or not spam)
+- Multiclass classification: predict one of many classes (cat, dog, horse, ...)
+- Ranking: predict the order of items (search results like Google)
+
+# 📖 CRISP-DM
+
+CRISP-DM stands for Cross-Industry Standard Process for Data Mining. It is a process model that describes the common approaches used by data mining experts.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/CRISP-DM_Process_Diagram.png" width="300">
+
+Let's take a example of a project to predict the price of a car:
+
+- **Business Understanding**: Understand the problem and the goal of the project. The goal is to predict the price of a car using its features.
+- **Data Understanding**: Collect and understand the data. The data is a table with cars features and prices.
+- **Data Preparation**: Clean and prepare the data. Remove missing values, normalize the data, etc.
+- **Modeling**: Create and evaluate the model. Train the model using the data.
+- **Evaluation**: Evaluate the model. Check if the model is good.
+- **Deployment**: Deploy the model. Use the model to predict the price of new cars.
+
+# 📖 Model Selection Process
+
