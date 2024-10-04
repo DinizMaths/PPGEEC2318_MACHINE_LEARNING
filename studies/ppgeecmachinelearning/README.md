@@ -121,6 +121,20 @@ A good pratice is follow some principles:
 
 ## 📖 Train, Dev and Test sets
 
+Making good choices in how you set up your training, development, and test sets can have a big impact on the performance of your model.
+
+In previous Machine Learning era, it was common to split the data into two sets: training and test. The training set was used to train the model, and the test set was used to evaluate the model.
+
+Nowadays, it is common to split the data into three sets: training, development, and test:
+
+- **Training set**: Used to train the model.
+- **Development set**: Used to evaluate the model and make decisions about the model.
+- **Test set**: Used to evaluate the model generalization.
+
+In previous Machine Learning era, it was common separate the data into [60, 20, 20], for example. Nowadays, in Big Data era, it is common to separate the data into [98, 1, 1], for example.
+
+Rule of the thumb: the development and test sets should come from the same distribution.
+
 ## 📖 Bias vs Variance
 
 
