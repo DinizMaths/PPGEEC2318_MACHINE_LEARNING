@@ -262,3 +262,20 @@ We have different evaluation metrics for different types of problems. For classi
     The harmonic mean of Precision and Recall.
 
 ## 📖 Ranking metrics
+
+Ranking metrics are used when we need to evaluate how effective are the classifier's to separate the classes.
+
+- **ROC (Receiver Operating Characteristic) curve**: A graphical representation of the trade-off between true positive rate and false positive rate.
+
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*Bgc9QOjhnL70g2SQxyj6hQ.png" width="300">
+
+**True Positive Rate (TPR) (Sensitivity)**: $ \frac{TP}{TP + FN} $
+
+**False Positive Rate (FPR) (Specificity)**: $ \frac{FP}{FP + TN} $
+
+**AUC (Area Under the Curve)**: The area under the ROC curve. The higher the AUC, the better the model.
+
+- **PR (Precision-Recall) curve**: A graphical representation of the trade-off between Precision and Recall.
+
+<img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*6QPLsDvjo4H6OZrxEBI8Fg.png" width="350">
+
