@@ -137,6 +137,23 @@ Rule of the thumb: the development and test sets should come from the same distr
 
 ## 📖 Bias vs Variance
 
+Bias and variance are two sources of error in machine learning models. Bias is the error introduced by approximating a real-world problem, which may be extremely complicated, by a much simpler model. Variance is the error introduced by the model's sensitivity to small fluctuations in the training set.
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20230307114300/image_2023-03-07_114312041.png" width="300">
+
+In a case that we have high bias and lol variance, we call it **underfitting**. In a case that we have low bias and high variance, we call it **overfitting**.
+
+|    | Scenario 1 | Scenario 2 | Scenario 3 | Scenario 4 |
+|--- | ---------- | ---------- | ---------- | ---------- |
+|Train set Error| 1% v| 15% | 15% | 0.5% |
+|Dev set Error  | 16% | 16% | 30% | 1%   |
+| Bias          | Low | High| High| Low  |
+| Variance      | High| Low | High| Low  |
+
+Train set error is utilized to measure bias. The diferenct between train set error and dev set error is utilized to measure variance.
+
+- High Bias? Try bigger network, train longer, try another architecture, etc.
+- High Variance? More data, regularization, try another architecture, etc.
 
 # 📚 CRISP-DM
 
