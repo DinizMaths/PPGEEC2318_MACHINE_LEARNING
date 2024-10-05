@@ -145,7 +145,7 @@ In a case that we have high bias and lol variance, we call it **underfitting**. 
 
 |    | Scenario 1 | Scenario 2 | Scenario 3 | Scenario 4 |
 |--- | ---------- | ---------- | ---------- | ---------- |
-|Train set Error| 1% v| 15% | 15% | 0.5% |
+|Train set Error| 1%  | 15% | 15% | 0.5% |
 |Dev set Error  | 16% | 16% | 30% | 1%   |
 | Bias          | Low | High| High| Low  |
 | Variance      | High| Low | High| Low  |
@@ -154,6 +154,16 @@ Train set error is utilized to measure bias. The diferenct between train set err
 
 - High Bias? Try bigger network, train longer, try another architecture, etc.
 - High Variance? More data, regularization, try another architecture, etc.
+
+# 📚 Decision Trees
+
+## 📖 Introduction
+
+Decision Trees are a type of model used in machine learning for classification and regression tasks. They are easy to understand and interpret, making them a popular choice for many applications.
+
+A Decision Tree is a tree-like structure where each internal node represents a feature (or attribute). The decision of wich node is next is based on the value of the feature. This follows some criteria, like entropy, gini index, chi-square, etc.
+
+## 📖 Mathematical foundations
 
 # 📚 CRISP-DM
 
