@@ -210,21 +210,55 @@ Where:
 
 These approaches have the same goal: increase the Information Gain.
 
+# 📚 Evaluation Metrics
 
-# 📚 CRISP-DM
+## 📖 How to choose an evaluation metric?
 
-CRISP-DM stands for Cross-Industry Standard Process for Data Mining. It is a process model that describes the common approaches used by data mining experts.
+We have different evaluation metrics for different types of problems. For classification, for example, we have some metrics:
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/CRISP-DM_Process_Diagram.png" width="300">
+- Threshold metrics: Ratio when a prediction does not match.
+    - Accuracy
+    - Error
+    - Sensitivity
+    - Specificity
+    - G-Mean
+    - Precision
+    - Recall
+    - Fbeta-measure
 
-Let's take a example of a project to predict the price of a car:
+- Ranking metrics: Based on score of a class membership and variaton of the threshold to measure the effectiviness of the classifier.
+    - ROC curve
+    - ROC AUC
+    - Precision-Recall curve
 
-- **Business Understanding**: Understand the problem and the goal of the project. The goal is to predict the price of a car using its features.
-- **Data Understanding**: Collect and understand the data. The data is a table with cars features and prices.
-- **Data Preparation**: Clean and prepare the data. Remove missing values, normalize the data, etc.
-- **Modeling**: Create and evaluate the model. Train the model using the data.
-- **Evaluation**: Evaluate the model. Check if the model is good.
-- **Deployment**: Deploy the model. Use the model to predict the price of new cars.
+- Probability metrics: Quantify uncertainty in a classifier's prediction.
+    - Logarithmic loss
+    - Brier score
 
-# 📖 Model Selection Process
+<img src="https://machinelearningmastery.com/wp-content/uploads/2019/12/How-to-Choose-a-Metric-for-Imbalanced-Classification-latest.png" width="500">
 
+## 📖 Threshold metrics
+
+<img src="https://images.datacamp.com/image/upload/v1701364260/image_5baaeac4c0.png" width="500">
+
+- **Accuracy**: $ \frac{TP + TN}{TP + TN + FP + FN} $
+    Of all the classes, how much we predicted correctly.
+- **Error**: $ 1 - Accuracy $
+    Of all the classes, how much we predicted incorrectly.
+- **Sensitivity**: $ \frac{TP}{TP + FN} $
+    Of all the positive true classes, how much we predicted correctly.
+- **Specificity**: $ \frac{TN}{TN + FP} $
+    Of all the negative true classes, how much we predicted correctly.
+- **G-Mean**: $ \sqrt{Sensitivity \times Specificity} $
+    The geometric mean of Sensitivity and Specificity.
+- **Precision**:
+    - PPV(Positive Predictive Value): $ \frac{TP}{TP + FP} $
+        Of all the positive predicted classes, how much we predicted correctly.
+    - NPV(Negative Predictive Value): $ \frac{TN}{TN + FN} $
+        Of all the negative predicted classes, how much we predicted correctly.
+- **Recall**: $ \frac{TP}{TP + FN} $
+    Of all the positive classes, how much we predicted correctly.
+- **Fbeta-measure**: $ \frac{(1 + \beta^2) \times Precision \times Recall}{\beta^2 \times Precision + Recall} $ where $ \beta $ is a parameter that determines the weight of Precision and Recall.
+    The harmonic mean of Precision and Recall.
+
+## 📖 Ranking metrics
