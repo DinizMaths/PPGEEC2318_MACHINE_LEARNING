@@ -165,6 +165,52 @@ A Decision Tree is a tree-like structure where each internal node represents a f
 
 ## 📖 Mathematical foundations
 
+Entrpy is an indicator of how messy the data is. The formula for entropy is:
+
+$ H(X) = - \sum_{i=1}^{c} P(x_i) \log_2 P(x_i) $
+
+Where:
+
+- $ H(X) $ is the entropy of the dataset
+- $ P(x_i) $ is the probability of class $ x_i $
+
+For a binary classification problem, the formula is:
+
+$ H(X) = - P(x_1) \log_2 P(x_1) - P(x_2) \log_2 P(x_2) $
+
+Why do we use entropy in Decision Trees? For each decision, we want to reduce the entropy of the dataset.
+
+How do we know that we need to create a node? We calculate the conditional entropy. The formula for conditional entropy is:
+
+$ H(T|X) = \sum_{c \in x} \frac{|X_c|}{|X|} H(X_c) $
+
+Where:
+
+- $ H(T|X) $ is the conditional entropy of the dataset
+- $ |X_c| $ is the number of samples in class $ c $
+- $ |X| $ is the number of samples in the dataset
+- $ H(X_c) $ is the entropy of the class $ c $
+
+If we have Information Gain (reduction of entropy), we split the dataset. The formula for Information Gain is:
+
+$ IG(T, X) = H(T) - H(T|X) $
+
+Where:
+
+- $ IG(T, X) $ is the Information Gain of the dataset
+
+That is one approach to create a Decision Tree. Another approach is to use the Gini Index, for example. The Gini Index is a measure of how often a randomly chosen element would be incorrectly classified. The formula for the Gini Index is:
+
+$ Gini(X) = 1 - \sum_{i=1}^{c} P(x_i)^2 $
+
+Where:
+
+- $ Gini(X) $ is the Gini Index of the dataset
+- $ P(x_i) $ is the probability of class $ x_i $
+
+These approaches have the same goal: increase the Information Gain.
+
+
 # 📚 CRISP-DM
 
 CRISP-DM stands for Cross-Industry Standard Process for Data Mining. It is a process model that describes the common approaches used by data mining experts.
