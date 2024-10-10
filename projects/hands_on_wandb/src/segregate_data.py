@@ -30,11 +30,11 @@ def segregate_data():
     df = pd.read_csv(artifact.file())
 
     # Separar os dados em características e rótulos
-    X = df.drop(columns=["income"])
-    y = df["income"]
+    X = df.drop(columns=["class"])
+    y = df["class"]
 
     # Dividir os dados em conjuntos de treinamento e teste
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
     os.makedirs("data", exist_ok=True)
 
@@ -42,13 +42,13 @@ def segregate_data():
     X_train.to_csv("./data/X_train.csv", index=False)
     create_and_log_artifact("./data/X_train.csv", "X_train", "train_data", "Training data")
 
-    X_test.to_csv("./data/X_test.csv", index=False)
-    create_and_log_artifact("./data/X_test.csv", "X_test", "test_data", "Test data")
+    X_val.to_csv("./data/X_val.csv", index=False)
+    create_and_log_artifact("./data/X_val.csv", "X_val", "val_data", "Validation data")
 
     y_train.to_csv("./data/y_train.csv", index=False)
     create_and_log_artifact("./data/y_train.csv", "y_train", "train_data", "Training data")
 
-    y_test.to_csv("./data/y_test.csv", index=False)
-    create_and_log_artifact("./data/y_test.csv", "y_test", "test_data", "Test data")
+    y_val.to_csv("./data/y_val.csv", index=False)
+    create_and_log_artifact("./data/y_val.csv", "y_val", "val_data", "Validation data")
 
     wandb.finish()
