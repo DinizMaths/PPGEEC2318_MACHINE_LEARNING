@@ -10,6 +10,10 @@ My name is **Matheus Diniz**, and I am passionate about AI and its applications.
 
 # 💻 Projects
 
+## 🖖 Hands-On
+
+The hands-on projects are practical applications of the concepts learned during the course, but just for study purposes.
+
 # 📝 Studies
 
 In this section, you will find summaries and materials from various studies carried out during the course.
@@ -27,7 +31,7 @@ The AI Python for Beginners series consists of 4 connected courses from DeepLear
 
 The Machine Learning Zoomcamp series consists of courses from Data Talks Club.
 
-**1.** [📝 **Introduction to Machine Learning**]()
+<!-- **1.** [📝 **Introduction to Machine Learning**]() -->
 
 # 📚 References
 

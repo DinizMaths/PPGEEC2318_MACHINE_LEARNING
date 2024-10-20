@@ -279,3 +279,13 @@ Ranking metrics are used when we need to evaluate how effective are the classifi
 
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*6QPLsDvjo4H6OZrxEBI8Fg.png" width="350">
 
+# 📚 Train and Validation
+
+The first step is to split the data into training and validation sets. The **training set** is used to train the model, and the **validation set** is used to evaluate the model.
+
+The training set is sent to data **preparation and model training** (normalization, outliers removal, ...). Now, we use the same training set and the validation set to evaluate the model in **train evaluation**.
+
+Next, we check evaluation. If the model is not good, we have to **tunning** the hyperparameters. If the model is good, we create the **inference artifact**.
+
+So, the train set is divided in training and validation sets. We can divide just using holdout ou we can use cross-validation.
+
