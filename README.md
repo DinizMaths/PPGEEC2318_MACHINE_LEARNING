@@ -27,6 +27,22 @@ The AI Python for Beginners series consists of 4 connected courses from DeepLear
 **3.** [🎥 **Working with Your Own Data and Documents in Python**](https://learn.deeplearning.ai/courses/ai-python-for-beginners-c3/lesson/1/introduction)
 **4.** [🎥 **Extending Python with Packages and APIs**](https://learn.deeplearning.ai/courses/ai-python-for-beginners-c4/lesson/1/introduction)
 
+## 📄 PyTorch for Deep Learning Bootcamp
+
+The PyTorch for Deep Learning Bootcamp series consists of course from Zero to Mastery.
+
+**1.** [🎥 **Introduction**]
+**2.** [🎥 **PyTorch Fundamentals**]
+<!-- **3.** [🎥 **Pytorch Workflow**]
+**4.** [🎥 **PyTorch Neural Networks Classification**]
+**5.** [🎥 **PyTorch Computer Vision**]
+**6.** [🎥 **PyTorch Custom Datasets**]
+**7.** [🎥 **PyTorch Going Modular**]
+**8.** [🎥 **PyTorch Transfer Learning**]
+**9.** [🎥 **PyTorch Experiment Tracking**]
+**10.** [🎥 **PyTorch Paper Replicating**]
+**11.** [🎥 **PyTorch Model Deployment**] -->
+
 ## 📄 Machine Learning Zoomcamp
 
 The Machine Learning Zoomcamp series consists of courses from Data Talks Club.
