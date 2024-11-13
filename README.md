@@ -43,11 +43,24 @@ The PyTorch for Deep Learning Bootcamp series consists of course from Zero to Ma
 **10.** [🎥 **PyTorch Paper Replicating**]
 **11.** [🎥 **PyTorch Model Deployment**] -->
 
-## 📄 Machine Learning Zoomcamp
+<!-- ## 📄 Machine Learning Zoomcamp -->
 
-The Machine Learning Zoomcamp series consists of courses from Data Talks Club.
+<!-- The Machine Learning Zoomcamp series consists of courses from Data Talks Club. -->
 
 <!-- **1.** [📝 **Introduction to Machine Learning**]() -->
+
+# 📝 Tasks & Assignments
+
+In this section, you will find the tasks and assignments carried out during the course.
+
+## 📄 Designing Machine Learning Systems
+
+[🎥 **Chapter 1 - Overview of Machine Learning Systems**](https://www.loom.com/share/10611e3db11442b4b753a100fa7a31c5?sid=b68ba054-bd87-445f-8609-813f74fa62d6)
+[🎥 **Chapter 2 - Introduction to Machine Learning Systems Design**](https://www.loom.com/share/c97c06209e1e4b22a441345b6d09a1ed?sid=a476e58e-d28d-4a1d-98ed-6763497b86c2)
+[🎥 **Chapter 3 - Data Engineering Fundamentals**](https://www.loom.com/share/15bde6c186a94b0d8ad81d70d314d9f3?sid=d3180d94-5d09-4329-a81e-c3cd47c47184)
+[🎥 **Chapter 4 - Training Data**](https://www.loom.com/share/f3cda651820c40f6ab590891e19b39b3?sid=265e65af-8945-4f3b-960d-db63a09b6cc7)
+[🎥 **Chapter 5 - Feature Engineering**](https://www.loom.com/share/a2105e5e6fbe4429a3f71c9d23069528?sid=933ed6dd-5bc1-4cad-8c54-e14a685f9ec0)
+
 
 # 📚 References
 
