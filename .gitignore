@@ -5,3 +5,4 @@ venv-*
 wandb
 
 **__pycache__/
+**data/
