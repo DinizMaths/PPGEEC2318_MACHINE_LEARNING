@@ -275,7 +275,7 @@ Ranking metrics are used when we need to evaluate how effective are the classifi
 
 **AUC (Area Under the Curve)**: The area under the ROC curve. The higher the AUC, the better the model.
 
-- **PR (Precision-Recall) curve**: A graphical representation of the trade-off between Precision and Recall.
+**PR (Precision-Recall) curve**: A graphical representation of the trade-off between Precision and Recall.
 
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*6QPLsDvjo4H6OZrxEBI8Fg.png" width="350">
 
