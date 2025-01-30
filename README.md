@@ -8,11 +8,7 @@ My name is **Matheus Diniz**, and I am passionate about AI and its applications.
 
 # 🤔 What is Machine Learning?
 
-# 💻 Projects
-
-## 🖖 Hands-On
-
-The hands-on projects are practical applications of the concepts learned during the course, but just for study purposes.
+Machine Learning is a subfield of Artificial Intelligence (AI) that focuses on the development of algorithms and statistical models that computer systems use to perform specific tasks without explicit instructions, relying on patterns and inference instead.
 
 # 📝 Studies
 
@@ -67,12 +63,27 @@ The objective of this task is to film 5 videos explaining the chapters of the bo
 
 The objective of this task is to explain Convolutional Neural Networks (CNN) and Hooks in PyTorch. The explanation is available in Medium:
 
-- [📝 **Pytorch CNN + Hooks**](https://medium.com/)
+- [📝 **Pytorch CNN + Hooks**](https://medium.com/@dinizmaths/explorando-redes-neurais-convolucionais-com-pytorch-do-básico-ao-fine-tuning-hooks-4cb5fd63f1c5)
 
 The code is available in the following link:
 
-- [📄 **Pytorch CNN + Hooks Code**](./projects/cnn_hooks/main.ipynb)
+- [📄 **Pytorch CNN + Hooks - Code**](./projects/cnn_hooks/main.ipynb)
 
+## 📄 Trainig Optimization
+
+- [📝 **Optimizing the Training of Models: An Overview of Advanced Techniques**](https://medium.com/@dinizmaths/otimizando-o-treinamento-de-modelos-uma-visão-geral-de-técnicas-avançadas-49b1f44ec199)
+
+The code is available in the following link:
+
+- [📄 **Optimizing the Training - Code**](./studies/ppgeecmachinelearning/chap_06.ipynb)
+
+## 📄 Pytorch Transfer Learning
+
+- [📝 **Transfer Learning: Fine-tuning and Feature Extraction with VGG16**](https://medium.com/@dinizmaths/transfer-learning-na-prática-fine-tuning-e-feature-extraction-com-vgg16-a2d4b41e72d0)
+
+The code is available in the following link:
+
+- [📄 **Transfer Learning - Code**](./projects/final_project/final_task.ipynb)
 
 # 📚 References
 
